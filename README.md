@@ -2,7 +2,7 @@
 
 ## Obrazy
 
-`image`, `img`, `picture`, `pic` - obraz
+`image`, `img`, `picture`, `pic` - obrazek
 
 `icon` — ikona
 
