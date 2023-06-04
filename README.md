@@ -279,7 +279,7 @@
 ### Artykuł lub wpis na blogu (wersja prosta)
 
 ```html
-<artykuł class="article">
+<article class="article">
   <h3 class="article__title">Odczuwanie czakr pęczka pietruszki</h3>
   <time class="article__datetime">32 maja, 10:87</time>
 
@@ -300,13 +300,13 @@
     udomowiona pęczek pietruszki, która będzie się dobrze bawić, goniąc cię
     na piętach i wykiełkować nasiona w pantoflach.
   </div>
-</artykuł>
+</article>
 ```
 
 ### Artykuł lub wpis na blogu (twardy)
 
 ```html
-<klasa artykułu="entry">
+<article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
       <a class="title-entry__link" href="#">Gumowe kaczuszki sposobem na samopoznanie</a>
@@ -360,5 +360,5 @@
       </li>
     </ul>
   </div>
-</artykuł>
+</article>
 ```
