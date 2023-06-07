@@ -168,9 +168,9 @@
 
 ```html
 <ul class="list">
-  <li class="item">Pierwszy</li>
-  <li class="item">Drugi</li>
-  <li class="item">Trzeci</li>
+  <li class="list__item">Pierwszy</li>
+  <li class="list__item">Drugi</li>
+  <li class="list__item">Trzeci</li>
 </ul>
 ```
 
@@ -187,11 +187,11 @@
 
 ```html
 <div class="gallery">
-  <ul class="gallery_list">
-    <li class="gallery_item">
+  <ul class="gallery__list">
+    <li class="gallery__item">
       <img class="gallery__img" src="flowers.jpg" alt="Kwiat jak ostatnio">
     </li>
-    <li class="gallery_item">
+    <li class="gallery__item">
       <img class="gallery__img" src="trees.jpg" alt="Park Trzech Sosen">
     </li>
   </ul>
@@ -212,17 +212,17 @@
 
 ```html
 <nav class="nav">
-  <ul class="nav_list">
+  <ul class="nav__list">
     <li class="nav__item nav__item--current">
       <a class="nav__link">Strona główna</a>
     </li>
-    <li class="nav_item">
+    <li class="nav__item">
       <a class="nav__link" href="#">Artykuły</a>
     </li>
-    <li class="nav_item">
+    <li class="nav__item">
       <a class="nav__link" href="#">Galeria zdjęć</a>
     </li>
-    <li class="nav_item">
+    <li class="nav__item">
       <a class="nav__link" href="#">Kontakty</a>
     </li>
   </ul>
@@ -235,7 +235,7 @@
 <div class="widget">
   <h4 class="widget__title">Growna Galaretka</h4>
 
-  <div class="widget_content">
+  <div class="widget__content">
     <p>Aby wyhodować towarzyską, przyjazną galaretkę,
     potrzebujemy rolki gumy piankowej, dwóch kilogramów cukru,
     trzy jajka i pół filiżanki acetonu.</p>
@@ -251,12 +251,12 @@
 <div class="news">
     <h3 class="news__title">Wczorajsze wiadomości</h3>
 
-    <ul class="news_list">
+    <ul class="news__list">
         <!-- dodaj klasę bloku do klasy elementu,
              aby utworzyć nową przestrzeń nazw -->
         <li class="news__item item-news">
             <h4 class="item-news__title">Konkurencja płoci w łyżwiarstwie szybkim</h4>
-            <div class="item-news_text">
+            <div class="item-news__text">
               <p>Zwyciężyła drużyna Kilek z Pietrozawodska</p>
 
               <a href="#" class="item-news__link">Dowiedz się więcej</a>
@@ -265,7 +265,7 @@
 
         <li class="news__item item-news">
             <h4 class="item-news__title">Naukowcy wyjaśniają rolę pilnika w pielęgnacji paznokci</h4>
-            <div class="item-news_text">
+            <div class="item-news__text">
               <p>Brytyjscy naukowcy bardzo docenili ten wkład
                 pilnik w wyrastających półtorametrowych paznokciach.</p>
 
@@ -315,9 +315,8 @@
     <time class="entry__datetime">32 maja, 10:87</time>
   </header>
 
-  <div class="entry_author author-entry">
+  <div class="entry__author author-entry">
     <img class="author-entry__img" src="userpic.png" alt="Vasilisa Sergeyevich">
-
     <a class="author-entry__link" href="#">Wasilisa Siergiejewicz</a>
   </div>
 
@@ -334,14 +333,14 @@
   <div class="entry__tags tags-entry">
     <h4 class="tags-entry__title">Tagi</h4>
 
-    <ul class="tags-entry_list">
-      <li class="tags-entry_item">
+    <ul class="tags-entry__list">
+      <li class="tags-entry__item">
         <a class="tags-entry__link" href="#">zrób to sam okrągły taniec</a>
       </li>
-      <li class="tags-entry_item">
+      <li class="tags-entry__item">
         <a class="tags-entry__link" href="#">pantofle porcelanowe</a>
       </li>
-      <li class="tags-entry_item">
+      <li class="tags-entry__item">
         <a class="tags-entry__link" href="#">pasta do butów w kuchni</a>
       </li>
     </ul>
