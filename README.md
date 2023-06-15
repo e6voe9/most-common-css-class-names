@@ -38,7 +38,7 @@
 
 ## Listy
 
-`list`, `items` - lista
+`list`, `items` - lista, elementy
 
 `item` - element listy
 
@@ -102,7 +102,7 @@
 
 `small`
 
-`medium` 
+`medium`
 
 `big`, `large`
 
@@ -178,7 +178,7 @@
 
 ```html
 <div class="user">
-  <img class="user__img" src="userpic.png" alt="Dormidont Pietrowicz">
+  <img class="user__img" src="userpic.png" alt="Dormidont Pietrowicz" />
   <a class="user__link" href="#">Dormidont Pietrowicz</a>
 </div>
 ```
@@ -189,10 +189,10 @@
 <div class="gallery">
   <ul class="gallery__list">
     <li class="gallery__item">
-      <img class="gallery__img" src="flowers.jpg" alt="Kwiat jak ostatnio">
+      <img class="gallery__img" src="flowers.jpg" alt="Kwiat jak ostatnio" />
     </li>
     <li class="gallery__item">
-      <img class="gallery__img" src="trees.jpg" alt="Park Trzech Sosen">
+      <img class="gallery__img" src="trees.jpg" alt="Park Trzech Sosen" />
     </li>
   </ul>
 </div>
@@ -236,9 +236,10 @@
   <h4 class="widget__title">Growna Galaretka</h4>
 
   <div class="widget__content">
-    <p>Aby wyhodować towarzyską, przyjazną galaretkę,
-    potrzebujemy rolki gumy piankowej, dwóch kilogramów cukru,
-    trzy jajka i pół filiżanki acetonu.</p>
+    <p>
+      Aby wyhodować towarzyską, przyjazną galaretkę, potrzebujemy rolki gumy
+      piankowej, dwóch kilogramów cukru, trzy jajka i pół filiżanki acetonu.
+    </p>
 
     <a class="widget__link" href="#">Nie czytaj dalej...</a>
   </div>
@@ -249,30 +250,34 @@
 
 ```html
 <div class="news">
-    <h3 class="news__title">Wczorajsze wiadomości</h3>
+  <h3 class="news__title">Wczorajsze wiadomości</h3>
 
-    <ul class="news__list">
-        <!-- dodaj klasę bloku do klasy elementu,
+  <ul class="news__list">
+    <!-- dodaj klasę bloku do klasy elementu,
              aby utworzyć nową przestrzeń nazw -->
-        <li class="news__item item-news">
-            <h4 class="item-news__title">Konkurencja płoci w łyżwiarstwie szybkim</h4>
-            <div class="item-news__text">
-              <p>Zwyciężyła drużyna Kilek z Pietrozawodska</p>
+    <li class="news__item item-news">
+      <h4 class="item-news__title">Konkurencja płoci w łyżwiarstwie szybkim</h4>
+      <div class="item-news__text">
+        <p>Zwyciężyła drużyna Kilek z Pietrozawodska</p>
 
-              <a href="#" class="item-news__link">Dowiedz się więcej</a>
-            </div>
-        </li>
+        <a href="#" class="item-news__link">Dowiedz się więcej</a>
+      </div>
+    </li>
 
-        <li class="news__item item-news">
-            <h4 class="item-news__title">Naukowcy wyjaśniają rolę pilnika w pielęgnacji paznokci</h4>
-            <div class="item-news__text">
-              <p>Brytyjscy naukowcy bardzo docenili ten wkład
-                pilnik w wyrastających półtorametrowych paznokciach.</p>
+    <li class="news__item item-news">
+      <h4 class="item-news__title">
+        Naukowcy wyjaśniają rolę pilnika w pielęgnacji paznokci
+      </h4>
+      <div class="item-news__text">
+        <p>
+          Brytyjscy naukowcy bardzo docenili ten wkład pilnik w wyrastających
+          półtorametrowych paznokciach.
+        </p>
 
-              <a href="#" class="item-news__link">Nie czytaj dalej</a>
-            </div>
-        </li>
-    </ul>
+        <a href="#" class="item-news__link">Nie czytaj dalej</a>
+      </div>
+    </li>
+  </ul>
 </div>
 ```
 
@@ -284,21 +289,24 @@
   <time class="article__datetime">32 maja, 10:87</time>
 
   <div class="author-article article__author-article">
-    <img class="author-article__img" src="userpic.png" alt="Kleshnya Andreevna">
+    <img
+      class="author-article__img"
+      src="userpic.png"
+      alt="Kleshnya Andreevna"
+    />
     <a class="author-article__link" href="#">Kleshnya Andreevna Dolgorukaya</a>
     <div class="author-article__desc">Nasz ekspert od czakr</div>
   </div>
 
   <div class="article__content">
-    Idź na rynek i kup od starszych pań 100-gramowy pęczek pietruszki.
-    Sortuj, oczyść z chrząszczy i gąsienic. Pozwól robakom grać
-    wsadź kota, gąsienice do garnka z kaktusami, niech jeden będzie Johnem,
-    drugiego Billy'ego, a będziesz miał teraz Dziki Zachód w puli. Wróć
-    na pęczek pietruszki. Spójrz na niego czule i podrap go odpowiednio
-    za uchem możesz sam lub kot. Wiązanie satynową tasiemką
-    koniecznie zawiąż kokardkę. Gratulacje! Teraz masz całkowicie
-    udomowiona pęczek pietruszki, która będzie się dobrze bawić, goniąc cię
-    na piętach i wykiełkować nasiona w pantoflach.
+    Idź na rynek i kup od starszych pań 100-gramowy pęczek pietruszki. Sortuj,
+    oczyść z chrząszczy i gąsienic. Pozwól robakom grać wsadź kota, gąsienice do
+    garnka z kaktusami, niech jeden będzie Johnem, drugiego Billy'ego, a
+    będziesz miał teraz Dziki Zachód w puli. Wróć na pęczek pietruszki. Spójrz
+    na niego czule i podrap go odpowiednio za uchem możesz sam lub kot. Wiązanie
+    satynową tasiemką koniecznie zawiąż kokardkę. Gratulacje! Teraz masz
+    całkowicie udomowiona pęczek pietruszki, która będzie się dobrze bawić,
+    goniąc cię na piętach i wykiełkować nasiona w pantoflach.
   </div>
 </article>
 ```
@@ -309,25 +317,29 @@
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
-      <a class="title-entry__link" href="#">Gumowe kaczuszki sposobem na samopoznanie</a>
+      <a class="title-entry__link" href="#"
+        >Gumowe kaczuszki sposobem na samopoznanie</a
+      >
     </h3>
 
     <time class="entry__datetime">32 maja, 10:87</time>
   </header>
 
   <div class="entry__author author-entry">
-    <img class="author-entry__img" src="userpic.png" alt="Vasilisa Sergeyevich">
+    <img
+      class="author-entry__img"
+      src="userpic.png"
+      alt="Vasilisa Sergeyevich"
+    />
     <a class="author-entry__link" href="#">Wasilisa Siergiejewicz</a>
   </div>
 
   <div class="entry__content">
-    Zdobądź pudełko pięćdziesięciu gumowych kaczek ze strychu,
-    pozostałe po obchodach nowego roku. Z kaczek
-    a płonące świece układają pentagram na podłodze pokoju.
-    Usiądź na środku w pozycji lotosu, weź każdą rękę
-    według słownika niemiecko-brazylijskiego kaszel, tarcza
-    pełna klatka piersiowa, głośno i pewnie,
-    z pełnym zaangażowaniem powiedz „Kwak!”
+    Zdobądź pudełko pięćdziesięciu gumowych kaczek ze strychu, pozostałe po
+    obchodach nowego roku. Z kaczek a płonące świece układają pentagram na
+    podłodze pokoju. Usiądź na środku w pozycji lotosu, weź każdą rękę według
+    słownika niemiecko-brazylijskiego kaszel, tarcza pełna klatka piersiowa,
+    głośno i pewnie, z pełnym zaangażowaniem powiedz „Kwak!”
   </div>
 
   <div class="entry__tags tags-entry">
