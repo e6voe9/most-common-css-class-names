@@ -44,7 +44,7 @@
 
 ## Bloki
 
-`page` jest elementem głównym strony
+`page` - strona, jest elementem głównym strony
 
 `header` - nagłówek (strona lub element)
 
